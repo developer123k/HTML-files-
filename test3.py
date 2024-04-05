@@ -1,0 +1,13 @@
+import turtle
+t = turtle.Turtle()
+t.up()
+t.down()
+t.begin_fill()
+t.fillcolor("blue")
+t.circle(100, steps=10)
+t.end_fill()
+t.up()
+t.backward(200)
+t.hideturtle()
+t.home()
+turtle.done()
